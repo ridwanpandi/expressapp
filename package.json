@@ -5,8 +5,5 @@
   "main": "server.js",
   "repository": "git@github.com:ridwanpandi/simple-nodeapp.git",
   "author": "Ridwan Pandi <ridwapandi94@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "dotenv": "^16.0.3"
-  }
+  "license": "MIT"
 }
