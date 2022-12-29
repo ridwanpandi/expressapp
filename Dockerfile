@@ -7,8 +7,7 @@ WORKDIR /srv
 
 COPY . .
 
-ENV APP_PORT=8080
+RUN npm install
 
-EXPOSE ${APP_PORT}
-
-CMD ["node", "server.js"]
+ENTRYPOINT [ "node" ]
+CMD ["server.js"]
