@@ -5,4 +5,8 @@ const server = http.createServer(function (req, res) {
   res.end('Hello, World!');
 });
 
-server.listen(8080);
+const env = process.env.APP_PORT;
+
+console.log(`Server is running in localhost:${env}`);
+
+server.listen(env);
